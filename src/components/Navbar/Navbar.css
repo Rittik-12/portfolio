@@ -1,0 +1,44 @@
+.n-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.n-left{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 2rem;
+}
+.n-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.n-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+.n-list ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    list-style-type: none;
+}
+.n-list li:hover{
+    list-style-type: none;
+    cursor: pointer;
+    color: var(--orange);
+}
+.n-button{
+    flex-direction: column;
+}
+@media screen and (max-width:480px){
+    .n-list{
+        display: none;
+    }
+    .n-button{
+        display: none;
+    }
+}
