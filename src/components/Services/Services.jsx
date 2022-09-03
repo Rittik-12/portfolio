@@ -21,7 +21,7 @@ const Services=()=>{
                     <span>Services</span>
                     <span>tagline any what so ever</span>
 
-                    <a href='https://drive.google.com/file/d/1r6PQT-4-plfuThtbRWrHTNnG0PvmxJID/view?usp=sharing'  target="_blank"  rel="noreferrer">
+                    <a href='https://drive.google.com/file/d/1Q09dSd2yV4nIE-I_PPAAEbAGuNo3ZAh9/view?usp=sharing'  target="_blank"  rel="noreferrer">
                     <button className="button s-button">Download Resume</button>
                     </a>
                     <div className="blur s-blur" style={{background:"#ABF1FF94"}}></div>
